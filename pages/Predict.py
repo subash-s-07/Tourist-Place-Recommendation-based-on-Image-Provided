@@ -1,4 +1,6 @@
 import streamlit as st
+import subprocess
+subprocess.call(["pip", "install", "transformers==4.25.0"])
 from transformers import BlipProcessor, BlipForConditionalGeneration
 from PIL import Image
 import numpy as np
@@ -11,9 +13,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
 import requests
 from io import BytesIO
-import subprocess
 
-subprocess.call(["pip", "install", "transformers==4.25.0"])
 
 page_bg_img = f"""
     <style>
