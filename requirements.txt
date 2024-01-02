@@ -33,5 +33,5 @@ pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
 referencing==0.29.1
 requests==2.31.0
-streamlit==1.17.0
+streamlit==1.29.0
 transformers==4.10.2  # Note: Adjust the version as needed
