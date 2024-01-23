@@ -1,1 +1,0 @@
-# Tourist-Place-Recommendation-based-on-Image-Provided
